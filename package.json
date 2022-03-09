@@ -1,0 +1,19 @@
+{
+   "name": "democasino",
+   "version": "1.0.0",
+   "description": "demo user registration",
+   "main": "index.js",
+   "scripts": {
+      "cy:open": "cypress open",
+      "cy:run": "cypress run"
+   },
+   "author": "Fernando J. Arroupe",
+   "license": "ISC",
+   "devDependencies": {
+      "cypress": "^9.5.1",
+      "cypress-cucumber-preprocessor": "^4.3.1"
+   },
+   "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true
+   }
+}

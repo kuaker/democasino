@@ -1,0 +1,8 @@
+{
+   "viewportWidth": 1000,
+   "env": {
+      "baseUrl": "https://demo.casino/"
+   },
+   "integrationFolder": "cypress/features",
+   "testFiles": "**/*.{feature,features}"
+}
